@@ -1,0 +1,13 @@
+*
+!Dockerfile
+!requirements.txt
+!requirements-build.txt
+!main.py
+!pages.py
+!relay_vless.py
+!speed_limit.py
+!telegram_bot.py
+!xhttp_siz10.py
+!tools/
+!tools/build_obfuscated.py
+!tools/verify_release.py
