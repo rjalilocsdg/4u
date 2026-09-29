@@ -1,11 +1,3 @@
-# X4G protected releases
-
-The six root Python files contain the existing reversible source wrappers. For
-stronger protection, deploy a **native release**, not these wrappers. The build
-validates and decodes their payloads without executing them, removes comments and
-docstrings, compiles every application module to native machine code using Cython,
-enables link-time optimization, and strips native symbols. Python signatures and
-annotations remain available because FastAPI needs them for request handling.
 
 ## Build and run
 
